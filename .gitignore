@@ -1,0 +1,39 @@
+# Environment variables
+.env
+*.env
+env/.env
+
+# Sensitive configuration files
+*.key
+*.pem
+*.crt
+*.cert
+secrets/
+*.secret
+*.hcl.local
+
+# Consul data
+data/
+*.snap
+*.wal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
